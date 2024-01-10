@@ -81,5 +81,6 @@ public class ClienteDao {
             }
         }
         System.out.println("Cliente não encontrado!.");
+        Sysyem.out.println("Dados do cliente já cadastrado!");
     }
 }
