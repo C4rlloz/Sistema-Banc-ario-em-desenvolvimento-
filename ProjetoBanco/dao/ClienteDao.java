@@ -19,7 +19,7 @@ public class ClienteDao {
         try {
             try (BufferedWriter writer = new BufferedWriter(new FileWriter(arquivo))) {
                 for(Cliente cliente : clientes){
-                        writer.write(cliente.getId()+"; "+cliente.getNome()+"; "+cliente.getEndereco());
+                        writer.write(cliente.getId()+"; "+cliente.getNome()+"; "+cliente.getEndereco()+"; "+cliente.getDados()+");
                         writer.newLine();
                     }
             }
