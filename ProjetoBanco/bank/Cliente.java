@@ -30,8 +30,11 @@ public class Cliente {
     public int getId(){
         return id;
     }
-     public void setDados(){
-        this.
+     public void setDados(String Dados){
+        this.Dados = Dados;
      }
+    public int getDados(){
+        return Dados;
+    }
         
 }
