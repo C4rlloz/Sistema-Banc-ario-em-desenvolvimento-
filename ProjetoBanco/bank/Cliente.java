@@ -30,4 +30,8 @@ public class Cliente {
     public int getId(){
         return id;
     }
+     public void setDados(){
+        this.
+     }
+        
 }
